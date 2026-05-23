@@ -32,7 +32,7 @@ INSE6110-RSA-Project/
 
 ---
 
-2. CSTR Cyber-Physical Attack Detection using MATLAB/Simulink
+### 2. CSTR Cyber-Physical Attack Detection using MATLAB/Simulink
 
 This project explores anomaly detection for a networked cyber-physical control system based on a Continuous-Stirred Tank Reactor model. The system uses a Kalman filter for state estimation and an LQI controller for reference tracking.
 
