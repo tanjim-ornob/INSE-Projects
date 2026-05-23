@@ -28,3 +28,27 @@ Project folder:
 
 ```text
 INSE6110-RSA-Project/
+```
+
+---
+
+2. CSTR Cyber-Physical Attack Detection using MATLAB/Simulink
+
+This project explores anomaly detection for a networked cyber-physical control system based on a Continuous-Stirred Tank Reactor model. The system uses a Kalman filter for state estimation and an LQI controller for reference tracking.
+
+The project evaluates how a chi-squared anomaly detector performs under different operating and attack scenarios, including:
+
+- Normal no-attack system operation
+- False data injection attack on sensor measurements
+- Replay attacks on sensor and actuator channels
+- Active watermarking-based anomaly detection
+
+The repository includes MATLAB scripts, Simulink model files, and a project report containing detector design steps, simulation results, plots, and analysis.
+
+Project folder:
+
+```text
+INSE-6710-CSTR-Attack-Detection/
+```
+
+Note: This project is based on a controlled academic simulation environment and is intended only for educational study of cyber-physical system security and anomaly detection.
