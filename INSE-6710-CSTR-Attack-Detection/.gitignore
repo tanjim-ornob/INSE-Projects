@@ -1,0 +1,19 @@
+# MATLAB / Simulink generated files
+slprj/
+*.slxc
+*.mexw64
+*.asv
+*.autosave
+*.m~
+*.slx.r20*
+*.mlx.r20*
+
+# MATLAB temporary/cache files
+*.mat
+*.fig
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
