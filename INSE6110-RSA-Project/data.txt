@@ -1,0 +1,43 @@
+# IDs
+MY_ID = "REDACTED"
+PARTNER_ID = "REDACTED"
+
+# my data
+p = 36599
+q = 52253
+N = 1912407547
+phi_N = 1912318696
+e = 40487
+d = 760874895
+
+# demo partner data
+# These are anonymized demo values for the public GitHub version.
+PARTNER_N = 3586779127
+PARTNER_e = 65537
+
+# encryption
+MY_MESSAGE = "Hello You"
+MY_MESSAGE_chunks = ["Hel", "lo ", "You"]
+MY_CIPHERTEXT = [777977483, 1691771631, 2666449406]
+
+# decryption
+PARTNER_CIPHERTEXT = [1588254726, 1458329806, 97701714]
+PARTNER_MESSAGE_chunks_AFTER_DECRYPT = ["Hel", "lo ", "Me!"]
+PARTNER_MESSAGE_AFTER_DECRYPT = "Hello Me!"
+
+# sign
+MY_MESSAGE_TO_BE_SIGNED = "Student Demo"
+MY_MESSAGE_TO_BE_SIGNED_chunks = ["Stu", "den", "t D", "emo"]
+MY_SIGNATURE = [1561928768, 1823188381, 315878939, 129901565]
+
+# verify the signature
+PARTNER_SIGNED_MESSAGE = "Partner Demo"
+PARTNER_SIGNATURE = [114934866, 1592326434, 1690739743, 199310275]
+
+# IS_VALID_SIGNATURE should be True or False
+IS_VALID_SIGNATURE = True
+
+COMMENTS = '''
+Public GitHub version with student IDs and real names removed.
+Original academic values were anonymized for privacy.
+'''
